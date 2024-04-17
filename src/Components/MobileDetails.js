@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, StyleSheet, Image, Text} from 'react-native';
-import Item from './Item';
-import ItemSection from '../ItemSection';
+import Item from './Item.js';
+import ItemSection from './ItemSection.js';
 
 const MobileDetails = (props) => {
   const {headContainer, headerText, imageStyle} = styles;
